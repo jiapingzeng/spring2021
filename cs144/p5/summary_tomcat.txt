@@ -1,0 +1,30 @@
+[2021-05-27 23:26:52,531] 7ec77cb13f60/WARNING/locust.runners: Your selected spawn rate is very high (>100), and this is known to sometimes cause issues. Do you really need to ramp up that fast?
+[2021-05-27 23:26:52,531] 7ec77cb13f60/INFO/locust.main: Run time limit set to 30 seconds
+[2021-05-27 23:26:52,532] 7ec77cb13f60/INFO/locust.main: Starting Locust 1.5.3
+[2021-05-27 23:26:52,532] 7ec77cb13f60/INFO/locust.runners: Spawning 700 users at the rate 700 users/s (0 users already running)...
+[2021-05-27 23:26:57,536] 7ec77cb13f60/WARNING/root: CPU usage above 90%! This may constrain your throughput and may even give inconsistent response time measurements! See https://docs.locust.io/en/stable/running-locust-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2021-05-27 23:27:00,263] 7ec77cb13f60/INFO/locust.runners: All users spawned: MyUser: 700 (700 total running)
+[2021-05-27 23:27:00,263] 7ec77cb13f60/INFO/locust.runners: Resetting stats
+
+[2021-05-27 23:27:22,331] 7ec77cb13f60/INFO/locust.main: Time limit reached. Stopping Locust.
+[2021-05-27 23:27:22,332] 7ec77cb13f60/INFO/locust.runners: Stopping 700 users
+[2021-05-27 23:27:22,383] 7ec77cb13f60/INFO/locust.runners: 700 Users have been stopped, 0 still running
+[2021-05-27 23:27:22,383] 7ec77cb13f60/WARNING/locust.runners: CPU usage was too high at some point during the test! See https://docs.locust.io/en/stable/running-locust-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2021-05-27 23:27:22,383] 7ec77cb13f60/INFO/locust.main: Running teardowns...
+[2021-05-27 23:27:22,383] 7ec77cb13f60/INFO/locust.main: Shutting down (exit code 0), bye.
+[2021-05-27 23:27:22,384] 7ec77cb13f60/INFO/locust.main: Cleaning up runner...
+ Name                                                          # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+--------------------------------------------------------------------------------------------------------------------------------------------
+ GET /editor/post?action=open                                   10557     0(0.00%)  |     387       1    1481     460  |  477.59    0.00
+ POST /editor/post?action=save                                   2655     0(0.00%)  |     394       2    1424     460  |  120.11    0.00
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                     13212     0(0.00%)  |     388       1    1481     460  |  597.70    0.00
+
+Response time percentiles (approximated)
+ Type     Name                                                              50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|------------------------------------------------------------|---------|------|------|------|------|------|------|------|------|------|------|------|
+ GET      /editor/post?action=open                                          460    550    590    610    660    690    720    730   1100   1500   1500  10557
+ POST     /editor/post?action=save                                          460    560    600    620    670    700    720    730    980   1400   1400   2655
+--------|------------------------------------------------------------|---------|------|------|------|------|------|------|------|------|------|------|------|
+ None     Aggregated                                                        460    550    590    610    660    690    720    730    990   1500   1500  13212
+

@@ -1,0 +1,7 @@
+NAME: Jiaping Zeng
+EMAIL: jiapingzeng@ucla.edu
+ID: 905363270
+
+Included files:
+- actors.sql: MySQL script to setup/retrieve from database
+- ComputeSHA.java: Java program for SHA256 hash computation

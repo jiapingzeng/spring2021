@@ -1,0 +1,381 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+<2>Cannot find specified temporary folder at [/var/lib/tomcat9/temp]
+<6>Server version name:   Apache Tomcat/9.0.31 (Ubuntu)
+<6>Server built:          Oct 20 2020 12:27:39 UTC
+<6>Server version number: 9.0.31.0
+<6>OS Name:               Linux
+<6>OS Version:            4.19.128-microsoft-standard
+<6>Architecture:          amd64
+<6>Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+<6>JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.20.04
+<6>JVM Vendor:            Ubuntu
+<6>CATALINA_BASE:         /var/lib/tomcat9
+<6>CATALINA_HOME:         /usr/share/tomcat9
+<6>Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+<6>Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+<6>Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+<6>Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties
+<6>Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+<6>Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+<6>Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+<6>Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+<6>Command line argument: -Dignore.endorsed.dirs=
+<6>Command line argument: -Dcatalina.base=/var/lib/tomcat9
+<6>Command line argument: -Dcatalina.home=/usr/share/tomcat9
+<6>Command line argument: -Djava.io.tmpdir=/var/lib/tomcat9/temp
+<6>Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+<6>APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+<6>APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+<6>OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+<6>Initializing ProtocolHandler ["http-nio-8888"]
+<6>Server initialization in [1,173] milliseconds
+<6>Starting service [Catalina]
+<6>Starting Servlet engine: [Apache Tomcat/9.0.31 (Ubuntu)]
+<6>Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml]
+<4>The path attribute with value [/host-manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has been ignored
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has finished in [1,941] ms
+<6>Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml]
+<4>The path attribute with value [/manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has been ignored
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has finished in [999] ms
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/cs144.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/cs144.war] has finished in [1,161] ms
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,495] ms
+<6>Deploying web application directory [/var/lib/tomcat9/webapps/ROOT]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application directory [/var/lib/tomcat9/webapps/ROOT] has finished in [1,614] ms
+<6>Starting ProtocolHandler ["http-nio-8888"]
+<6>Server startup in [7,443] milliseconds
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,312] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,075] ms
+<6>A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+<6>Pausing ProtocolHandler ["http-nio-8888"]
+<6>Stopping service [Catalina]
+<6>Stopping ProtocolHandler ["http-nio-8888"]
+<6>Destroying ProtocolHandler ["http-nio-8888"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+<2>Cannot find specified temporary folder at [/var/lib/tomcat9/temp]
+<6>Server version name:   Apache Tomcat/9.0.31 (Ubuntu)
+<6>Server built:          Oct 20 2020 12:27:39 UTC
+<6>Server version number: 9.0.31.0
+<6>OS Name:               Linux
+<6>OS Version:            4.19.128-microsoft-standard
+<6>Architecture:          amd64
+<6>Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+<6>JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.20.04
+<6>JVM Vendor:            Ubuntu
+<6>CATALINA_BASE:         /var/lib/tomcat9
+<6>CATALINA_HOME:         /usr/share/tomcat9
+<6>Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+<6>Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+<6>Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+<6>Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties
+<6>Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+<6>Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+<6>Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+<6>Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+<6>Command line argument: -Dignore.endorsed.dirs=
+<6>Command line argument: -Dcatalina.base=/var/lib/tomcat9
+<6>Command line argument: -Dcatalina.home=/usr/share/tomcat9
+<6>Command line argument: -Djava.io.tmpdir=/var/lib/tomcat9/temp
+<6>Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+<6>APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+<6>APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+<6>OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+<6>Initializing ProtocolHandler ["http-nio-8888"]
+<6>Server initialization in [921] milliseconds
+<6>Starting service [Catalina]
+<6>Starting Servlet engine: [Apache Tomcat/9.0.31 (Ubuntu)]
+<6>Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml]
+<4>The path attribute with value [/host-manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has been ignored
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has finished in [1,786] ms
+<6>Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml]
+<4>The path attribute with value [/manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has been ignored
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has finished in [1,211] ms
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/cs144.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/cs144.war] has finished in [1,206] ms
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,219] ms
+<6>Deploying web application directory [/var/lib/tomcat9/webapps/ROOT]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application directory [/var/lib/tomcat9/webapps/ROOT] has finished in [1,146] ms
+<6>Starting ProtocolHandler ["http-nio-8888"]
+<6>Server startup in [6,699] milliseconds
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,200] ms
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+<2>Cannot find specified temporary folder at [/var/lib/tomcat9/temp]
+<6>Server version name:   Apache Tomcat/9.0.31 (Ubuntu)
+<6>Server built:          Oct 20 2020 12:27:39 UTC
+<6>Server version number: 9.0.31.0
+<6>OS Name:               Linux
+<6>OS Version:            4.19.128-microsoft-standard
+<6>Architecture:          amd64
+<6>Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+<6>JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.20.04
+<6>JVM Vendor:            Ubuntu
+<6>CATALINA_BASE:         /var/lib/tomcat9
+<6>CATALINA_HOME:         /usr/share/tomcat9
+<6>Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+<6>Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+<6>Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+<6>Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties
+<6>Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+<6>Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+<6>Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+<6>Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+<6>Command line argument: -Dignore.endorsed.dirs=
+<6>Command line argument: -Dcatalina.base=/var/lib/tomcat9
+<6>Command line argument: -Dcatalina.home=/usr/share/tomcat9
+<6>Command line argument: -Djava.io.tmpdir=/var/lib/tomcat9/temp
+<6>Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+<6>APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+<6>APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+<6>OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+<6>Initializing ProtocolHandler ["http-nio-8888"]
+<6>Server initialization in [1,686] milliseconds
+<6>Starting service [Catalina]
+<6>Starting Servlet engine: [Apache Tomcat/9.0.31 (Ubuntu)]
+<6>Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml]
+<4>The path attribute with value [/host-manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has been ignored
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has finished in [2,398] ms
+<6>Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml]
+<4>The path attribute with value [/manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has been ignored
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has finished in [1,106] ms
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/cs144.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/cs144.war] has finished in [978] ms
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [858] ms
+<6>Deploying web application directory [/var/lib/tomcat9/webapps/ROOT]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application directory [/var/lib/tomcat9/webapps/ROOT] has finished in [956] ms
+<6>Starting ProtocolHandler ["http-nio-8888"]
+<6>Server startup in [6,454] milliseconds
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,580] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [943] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,279] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [841] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [785] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [800] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,010] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,198] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,126] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [986] ms
+test test test new form
+body body
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,076] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [990] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [925] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,058] ms
+test test test new form
+body body
+test test test new form
+body body
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [963] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,231] ms
+test test test new form
+body body
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,221] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [930] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,294] ms
+test test test new form
+- body body
+- 23r
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,772] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,352] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,318] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,214] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,070] ms
+<6>Undeploying context [/editor]
+<6>Waiting for [1] instance(s) to be deallocated for Servlet [jsp]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [979] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [841] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,257] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,262] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,331] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,065] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,181] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,655] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,544] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,285] ms
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,453] ms
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+<2>Cannot find specified temporary folder at [/var/lib/tomcat9/temp]
+<6>Server version name:   Apache Tomcat/9.0.31 (Ubuntu)
+<6>Server built:          Oct 20 2020 12:27:39 UTC
+<6>Server version number: 9.0.31.0
+<6>OS Name:               Linux
+<6>OS Version:            4.19.128-microsoft-standard
+<6>Architecture:          amd64
+<6>Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+<6>JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.20.04
+<6>JVM Vendor:            Ubuntu
+<6>CATALINA_BASE:         /var/lib/tomcat9
+<6>CATALINA_HOME:         /usr/share/tomcat9
+<6>Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+<6>Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+<6>Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+<6>Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties
+<6>Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+<6>Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+<6>Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+<6>Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+<6>Command line argument: -Dignore.endorsed.dirs=
+<6>Command line argument: -Dcatalina.base=/var/lib/tomcat9
+<6>Command line argument: -Dcatalina.home=/usr/share/tomcat9
+<6>Command line argument: -Djava.io.tmpdir=/var/lib/tomcat9/temp
+<6>Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+<6>APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+<6>APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+<6>OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+<6>Initializing ProtocolHandler ["http-nio-8888"]
+<6>Server initialization in [989] milliseconds
+<6>Starting service [Catalina]
+<6>Starting Servlet engine: [Apache Tomcat/9.0.31 (Ubuntu)]
+<6>Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml]
+<4>The path attribute with value [/host-manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has been ignored
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has finished in [2,242] ms
+<6>Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml]
+<4>The path attribute with value [/manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has been ignored
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has finished in [1,744] ms
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/cs144.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/cs144.war] has finished in [1,424] ms
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,152] ms
+<6>Deploying web application directory [/var/lib/tomcat9/webapps/ROOT]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application directory [/var/lib/tomcat9/webapps/ROOT] has finished in [1,435] ms
+<6>Starting ProtocolHandler ["http-nio-8888"]
+<6>Server startup in [8,202] milliseconds
+<6>Undeploying context [/editor]
+<6>Deploying web application archive [/var/lib/tomcat9/webapps/editor.war]
+<6>At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+<6>Deployment of web application archive [/var/lib/tomcat9/webapps/editor.war] has finished in [1,006] ms

@@ -1,0 +1,7 @@
+<div class="container">
+    <button class="btn btn-outline-secondary" id="preview-edit-button" (click)="editPostTrigger($event)">Edit</button>
+    <div class="my-3">
+        <h3 id="preview-title" [innerHTML]="writer.render(reader.parse(post.title))"></h3>
+        <p id="preview-body" [innerHTML]="writer.render(reader.parse(post.body))"></p>
+    </div>
+</div>

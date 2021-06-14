@@ -1,0 +1,10 @@
+<div class="container">
+    <button (click)="newPostTrigger()" class="btn btn-primary my-3" id="list-new-button">New post</button>
+    <div *ngFor="let post of posts" (click)="openPostTrigger(post)" class="card mb-3" [id]="'list-post-' + post.postid">
+        <h5 class="card-header">{{post.title}}</h5>
+        <div class="card-body">
+            <h6 class="card-subtitle mb-2">{{post.body}}</h6>
+            <small class="card-text">created {{post.created | date}} - modified {{post.modified | date}}</small>
+        </div>
+    </div>
+</div>

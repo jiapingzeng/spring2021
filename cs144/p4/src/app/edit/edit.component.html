@@ -1,0 +1,16 @@
+<div class="container">
+    <form>
+        <div class="my-3">
+            <label for="edit-title" class="form-label">Title</label>
+            <input type="text" class="form-control" id="edit-title" [value]="post.title" (keyup)="titleChange($event)">
+        </div>
+        <div class="my-3">
+            <label for="edit-body" class="form-label">Body</label>
+            <textarea class="form-control" style="height: 20rem;" id="edit-body" (keyup)="bodyChange($event)">{{post.body}}</textarea>
+        </div>
+        <p>Last modified: {{post.modified | date:'medium' }}</p>
+        <button class="btn btn-outline-success" id="edit-save-button" (click)="savePostTrigger($event)">Save</button>
+        <button class="btn btn-outline-danger mx-2" id="edit-delete-button" (click)="deletePostTrigger($event)">Delete</button>
+        <button class="btn btn-outline-primary" id="edit-preview-button" (click)="previewPostTrigger($event)">Preview</button>
+    </form>
+</div>

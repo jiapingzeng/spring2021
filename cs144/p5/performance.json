@@ -1,0 +1,34 @@
+[
+  { "id": 1,
+    "test": "read_tomcat",
+    "aggregated # reqs": 391,
+    "aggregated req/s": 13.17,
+    "request distribution": [
+      {"name": "GET /editor/post?action=open", "98%": 38}
+    ]
+  },
+  { "id": 2,
+    "test": "write_tomcat",
+    "aggregated # reqs": 380,
+    "aggregated req/s": 12.79,
+    "request distribution": [
+      {"name": "POST /editor/post?action=save", "98%": 33}
+    ]
+  },
+  { "id": 4,
+    "test": "read_node",
+    "aggregated # reqs": 389,
+    "aggregated req/s": 13.07,
+    "request distribution": [
+      {"name": "GET /blog/cs144", "98%": 22}
+    ]
+  },
+  { "id": 5,
+    "test": "write_node",
+    "aggregated # reqs": 396,
+    "aggregated req/s": 13.37,
+    "request distribution": [
+      {"name": "POST /api/cs144", "98%": 85}
+    ]
+  }
+]
